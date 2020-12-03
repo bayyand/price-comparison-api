@@ -1,0 +1,39 @@
+{
+  "name": "price-comparison-api",
+  "version": "pre-alpha-1.0.0",
+  "description": "App social de comparación de precios",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayyand/price-comparison-api.git"
+  },
+  "keywords": [
+    "Price-comparison",
+    "Social",
+    "App",
+    "API-REST"
+  ],
+  "author": "Brian Chavarria <brian@bayyand.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bayyand/price-comparison-api/issues"
+  },
+  "homepage": "https://github.com/bayyand/price-comparison-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.25.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0",
+    "uuid": "^8.3.2"
+  }
+}
